@@ -1,0 +1,36 @@
+#Generating source browse information for project Messablauf
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build ADC.pbi : index ADC.xcl
+build ID.pbi : index ID.xcl
+build main.pbi : index main.xcl
+build Powermode.pbi : index Powermode.xcl
+build Radio.pbi : index Radio.xcl
+build SelectRFInput.pbi : index SelectRFInput.xcl
+build timer4.pbi : index timer4.xcl
+build Messablauf_part0.pbi : link ADC.pbi ID.pbi main.pbi
+build Messablauf_part1.pbi : link Powermode.pbi Radio.pbi SelectRFInput.pbi
+build Messablauf_part2.pbi : link timer4.pbi
+build Messablauf.pbd : link Messablauf_part0.pbi Messablauf_part1.pbi Messablauf_part2.pbi
+build Messablauf.pbw : browsedata Messablauf.pbd
+
+
