@@ -88,14 +88,13 @@ while(1)
 	length=10;
         Initadc(); 
         mean= readADC(); 
-	//Rx(); 
+	Rx(); 
 	led1=0; 	
         
         Rxdata[2]=22; // Programm auswählen 	
 	z = Rxdata[4];//Zeitsteuerung
 	n = Rxdata[3];//n: Anzahl der RSSI Durchläufe 	
         n = 200; 
-        z = 0; 
         /*
 	Rxdata[0]= 10; 
 	Rxdata[2]=22; // Programm auswählen 
@@ -108,12 +107,10 @@ while(1)
 	//Rxdata[4]=0; 
 	
 	if(Rxdata[2] == 22) //M für Mittelwert
-		{	//n= 50; 
-                        //delay(100); 
+		{	
 			SelDet();
-			//delay(100); 
 			Initadc();
-                        McuWaitS(z); 
+                        McuWaitS(3); 
 			//Messung Detektor 
 			t=n/10; 
 			for(p=0; p<t; p++)
@@ -166,7 +163,7 @@ while(1)
                         Txdata[6] = (unsigned char)y; 
                         SeluC(); // Pfad auf uController Schalten             
                         //delay(1); 
-                        McuWaitS(z); 
+                        McuWaitS(z+2); 
                         Tx_process(); 
                         transmit(Txdata, length);                        
 		}	
