@@ -88,12 +88,14 @@ while(1)
 	length=10;
         Initadc(); 
         mean= readADC(); 
-	Rx(); 
+	//Rx(); 
 	led1=0; 	
         
-        // Rxdata[2]=44; // Programm auswählen 	
+        Rxdata[2]=22; // Programm auswählen 	
 	z = Rxdata[4];//Zeitsteuerung
 	n = Rxdata[3];//n: Anzahl der RSSI Durchläufe 	
+        n = 200; 
+        z = 0; 
         /*
 	Rxdata[0]= 10; 
 	Rxdata[2]=22; // Programm auswählen 

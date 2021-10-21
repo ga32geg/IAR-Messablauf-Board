@@ -81,15 +81,15 @@
                 </option>
                 <option>
                     <name>Switch Method</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>Mask Value</name>
-                    <state>0x00</state>
+                    <state>0xFF</state>
                 </option>
                 <option>
                     <name>DPS Address</name>
-                    <state>0x86</state>
+                    <state>0x92</state>
                 </option>
                 <option>
                     <name>Sfr Visibility</name>
@@ -212,7 +212,7 @@
                 </option>
                 <option>
                     <name>PDATA 16-31 register address</name>
-                    <state>0xEA</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>General Far22 Heap Size</name>
@@ -817,11 +817,11 @@
                 </option>
                 <option>
                     <name>XclOverride</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>XclFile</name>
-                    <state>$TOOLKIT_DIR$\config\devices\_generic\lnk51ew_8052.xcl</state>
+                    <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC1110F8.xcl</state>
                 </option>
                 <option>
                     <name>XclFileSlave</name>
@@ -971,7 +971,7 @@
                 </option>
                 <option>
                     <name>xcOverrideProgramEntryLabel</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>xcProgramEntryLabelSelect</name>
