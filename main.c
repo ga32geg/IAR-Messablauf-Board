@@ -11,11 +11,11 @@
 
 unsigned char pktRxFlag;
 unsigned char pktTxFlag;
-unsigned char RFmode;                   // Tx = 0x00; Rx = 0x01
-unsigned char Rxdata[10];               // Received Data stored here
+unsigned char RFmode;                  
+unsigned char Rxdata[10];               
 unsigned char Txdata[10];
-signed short rssim[10];									//Array Mittelwert
-signed short rss[20];										//Array Mittelwert
+signed short rssim[10];			
+signed short rss[20];								
 unsigned char length =10; 
 unsigned char XtalCLK_Flag = 0;
 unsigned char ID;
@@ -57,7 +57,7 @@ led1=0; //LED ausschalten ansosten wären sie durch das auswählen des Ports autom
 led2=0;
 InitCLK();
 
-for(i=0;  i<6; i++)
+for(i=0;  i<2; i++)
 {
   McuWaitS(1);
   led1=1; 
@@ -90,7 +90,7 @@ for(i=0;  i<6; i++)
 	*/
         
         
-        if (Rxdata[1]=IDB)
+        if (Rxdata[1]==IDB)
         {
 		
           if(Rxdata[2] == 22) //M für Mittelwert
@@ -150,7 +150,8 @@ for(i=0;  i<6; i++)
             Txdata[6] = (unsigned char)y; 
             SeluC(); // Pfad auf uController Schalten             
             //delay(1); 
-            McuWaitS(z+2); 
+            
+            McuWaitS(z+10); 
             Tx_process(); 
             transmit(Txdata, length);                        
           }	
