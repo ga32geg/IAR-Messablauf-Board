@@ -2,7 +2,7 @@
 #                                                                              #
 #      IAR Universal Linker V6.6.2.104                                         #
 #                                                                              #
-#           Link time     =  25/Oct/2021  15:09:02                             #
+#           Link time     =  25/Oct/2021  16:15:58                             #
 #           Target CPU    =  x51                                               #
 #           List file     =  "C:\Users\stenger\Desktop\IAR Messablauf\Debug\Li #
 #                            st\Messablauf.map"                                #
@@ -12,7 +12,7 @@
 #                            UBROF version 10.0.6                              #
 #                            Using library modules for C-SPY (-rt)             #
 #           Command line  =  -f                                                #
-#                            C:\Users\stenger\AppData\Local\Temp\EWE196.tmp    #
+#                            C:\Users\stenger\AppData\Local\Temp\EW2AC1.tmp    #
 #                            ("C:\Users\stenger\Desktop\IAR Messablauf\Debug\O #
 #                            bj\ADC.r51"                                       #
 #                            "C:\Users\stenger\Desktop\IAR Messablauf\Debug\Ob #
@@ -485,7 +485,7 @@ XDATA_I
            __Constant_2710         0000F0F7 
     -------------------------------------------------------------------------
 NEAR_CODE
-  Relative segment, address: CODE 00000816 - 00000D14 (0x4ff bytes), align: 0
+  Relative segment, address: CODE 00000816 - 00000D30 (0x51b bytes), align: 0
   Segment part 39.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
@@ -542,11 +542,11 @@ XDATA_ID
   SEGMENTS IN THE MODULE
   ======================
 NEAR_CODE
-  Relative segment, address: CODE 00000D15 - 00000D30 (0x1c bytes), align: 0
+  Relative segment, address: CODE 00000D31 - 00000D4C (0x1c bytes), align: 0
   Segment part 8.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           InitCLK                 00000D15        InitRadio (Radio)
+           InitCLK                 00000D31        InitRadio (Radio)
                                                    main (main)
 
     *************************************************************************
@@ -595,50 +595,50 @@ SFR_AN
            RFIF                    000000E9 
     -------------------------------------------------------------------------
 NEAR_CODE
-  Relative segment, address: CODE 00000D31 - 00000DAB (0x7b bytes), align: 0
+  Relative segment, address: CODE 00000D4D - 00000DC7 (0x7b bytes), align: 0
   Segment part 11.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           InitRadio               00000D31        main (main)
+           InitRadio               00000D4D        main (main)
                calls direct
     -------------------------------------------------------------------------
 NEAR_CODE
-  Relative segment, address: CODE 00000DAC - 00000DE9 (0x3e bytes), align: 0
+  Relative segment, address: CODE 00000DC8 - 00000E05 (0x3e bytes), align: 0
   Segment part 12.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           transmit                00000DAC        main (main)
+           transmit                00000DC8        main (main)
     -------------------------------------------------------------------------
 NEAR_CODE
-  Relative segment, address: CODE 00000DEA - 00000E48 (0x5f bytes), align: 0
+  Relative segment, address: CODE 00000E06 - 00000E64 (0x5f bytes), align: 0
   Segment part 13.            Intra module refs:   Rx
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           receive                 00000DEA 
+           receive                 00000E06 
                ISTACK = 00000000 ( 00000001 )
     -------------------------------------------------------------------------
 NEAR_CODE
-  Relative segment, address: CODE 00000E49 - 00000EAA (0x62 bytes), align: 0
+  Relative segment, address: CODE 00000E65 - 00000EC6 (0x62 bytes), align: 0
   Segment part 14.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           convertRssiByte         00000E49        main (main)
+           convertRssiByte         00000E65        main (main)
                ISTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 NEAR_CODE
-  Relative segment, address: CODE 00000EAB - 00000EBF (0x15 bytes), align: 0
+  Relative segment, address: CODE 00000EC7 - 00000EDB (0x15 bytes), align: 0
   Segment part 15.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Rx                      00000EAB        main (main)
+           Rx                      00000EC7        main (main)
                calls direct
     -------------------------------------------------------------------------
 NEAR_CODE
-  Relative segment, address: CODE 00000EC0 - 00000ED1 (0x12 bytes), align: 0
+  Relative segment, address: CODE 00000EDC - 00000EED (0x12 bytes), align: 0
   Segment part 16.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Tx_process              00000EC0        main (main)
+           Tx_process              00000EDC        main (main)
 
     *************************************************************************
 
@@ -675,19 +675,19 @@ SFR_AN
            P0DIR                   000000FD 
     -------------------------------------------------------------------------
 NEAR_CODE
-  Relative segment, address: CODE 00000ED2 - 00000EE3 (0x12 bytes), align: 0
+  Relative segment, address: CODE 00000EEE - 00000EFF (0x12 bytes), align: 0
   Segment part 9.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           SelDet                  00000ED2        main (main)
+           SelDet                  00000EEE        main (main)
                calls direct
     -------------------------------------------------------------------------
 NEAR_CODE
-  Relative segment, address: CODE 00000EE4 - 00000EF5 (0x12 bytes), align: 0
+  Relative segment, address: CODE 00000F00 - 00000F11 (0x12 bytes), align: 0
   Segment part 10.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           SeluC                   00000EE4        main (main)
+           SeluC                   00000F00        main (main)
                calls direct
 
     *************************************************************************
@@ -698,29 +698,29 @@ NEAR_CODE
   SEGMENTS IN THE MODULE
   ======================
 NEAR_CODE
-  Relative segment, address: CODE 00000EF6 - 00000F1A (0x25 bytes), align: 0
+  Relative segment, address: CODE 00000F12 - 00000F36 (0x25 bytes), align: 0
   Segment part 6.             Intra module refs:   McuWaitMs
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           McuWaitUs               00000EF6 
+           McuWaitUs               00000F12 
                PSTACK = 00000006 ( 00000000 )
     -------------------------------------------------------------------------
 NEAR_CODE
-  Relative segment, address: CODE 00000F1B - 00000F41 (0x27 bytes), align: 0
+  Relative segment, address: CODE 00000F37 - 00000F5D (0x27 bytes), align: 0
   Segment part 7.             Intra module refs:   McuWaitS
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           McuWaitMs               00000F1B        SelDet (SelectRFInput)
+           McuWaitMs               00000F37        SelDet (SelectRFInput)
                                                    SeluC (SelectRFInput)
                calls direct
                PSTACK = 00000006 ( 00000006 )
     -------------------------------------------------------------------------
 NEAR_CODE
-  Relative segment, address: CODE 00000F42 - 00000F68 (0x27 bytes), align: 0
+  Relative segment, address: CODE 00000F5E - 00000F84 (0x27 bytes), align: 0
   Segment part 8.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           McuWaitS                00000F42        main (main)
+           McuWaitS                00000F5E        main (main)
                calls direct
                PSTACK = 00000000 ( 00000006 )
 
@@ -732,11 +732,11 @@ NEAR_CODE
   SEGMENTS IN THE MODULE
   ======================
 NEAR_CODE
-  Relative segment, address: CODE 00000F69 - 00000F6B (0x3 bytes), align: 0
+  Relative segment, address: CODE 00000F85 - 00000F87 (0x3 bytes), align: 0
   Segment part 6.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __DebugBreak            00000F69        __exit (?__exit)
+           __DebugBreak            00000F85        __exit (?__exit)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?__exit
@@ -744,11 +744,11 @@ NEAR_CODE
   SEGMENTS IN THE MODULE
   ======================
 NEAR_CODE
-  Relative segment, address: CODE 00000F6C - 00000F8A (0x1f bytes), align: 0
+  Relative segment, address: CODE 00000F88 - 00000FA6 (0x1f bytes), align: 0
   Segment part 6.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __exit                  00000F6C        Segment part 10 (?cexit)
+           __exit                  00000F88        Segment part 10 (?cexit)
                calls direct
                PSTACK = 00000000 ( 00000008 )
 
@@ -978,11 +978,11 @@ PSP
   SEGMENTS IN THE MODULE
   ======================
 NEAR_CODE
-  Relative segment, address: CODE 00000F8B - 00000F8E (0x4 bytes), align: 0
+  Relative segment, address: CODE 00000FA7 - 00000FAA (0x4 bytes), align: 0
   Segment part 6.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           exit                    00000F8B        ?call_main (?cmain)
+           exit                    00000FA7        ?call_main (?cmain)
                calls direct
 
     -------------------------------------------------------------------------
@@ -1341,7 +1341,7 @@ RCODE                CODE          00000074 - 00000721         6AE   rel    0
 CODE_C               CODE               00000722                     dse    0
 DIFUNCT              CODE               00000722                     rel    0
 CODE_N               CODE               00000722                     dse    0
-NEAR_CODE            CODE          00000722 - 00000F8E         86D   rel    0
+NEAR_CODE            CODE          00000722 - 00000FAA         889   rel    0
 REGISTERS            DATA          00000000 - 00000007           8   rel    0
 VREG                 DATA          00000008 - 0000000F           8   rel    0
 PSP                  DATA          00000010 - 00000010           1   rel    0
@@ -1372,7 +1372,7 @@ ISTACK               IDATA         000000C0 - 000000FF          40   rel    0
                 *                                      *
                 ****************************************
 
- 3 983 bytes of CODE  memory
+ 4 011 bytes of CODE  memory
     17 bytes of DATA  memory (+ 19 absolute )
    251 bytes of XDATA memory
     64 bytes of IDATA memory

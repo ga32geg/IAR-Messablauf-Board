@@ -150,8 +150,14 @@ for(i=0;  i<2; i++)
             Txdata[6] = (unsigned char)y; 
             SeluC(); // Pfad auf uController Schalten             
             //delay(1); 
-            
-            McuWaitS(z+10); 
+            if(IDB >=2)
+            {
+              McuWaitS(z+10); 
+            }
+            else
+            {
+              McuWaitS(z+3); 
+            }
             Tx_process(); 
             transmit(Txdata, length);                        
           }	
