@@ -996,20 +996,6 @@
             "scope": "_anonymous_ioCC1110_h_120_1::_anonymous_ioCC1110_h_120_1"
           },
           {
-            "ID": "c:ioCC1110.h@Ua@Sa@FI@P1_7",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "P1_7",
-            "location": {
-              "column": "1",
-              "line": "120",
-              "path": "C:\\Users\\stenger\\Desktop\\IAR Messablauf\\ioCC1110.h"
-            },
-            "name": "P1_7",
-            "origin": "user_include",
-            "scope": "_anonymous_ioCC1110_h_120_1::_anonymous_ioCC1110_h_120_1"
-          },
-          {
             "ID": "c:ioCC1110.h@Ua@Sa@FI@P1_1",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -1020,6 +1006,20 @@
               "path": "C:\\Users\\stenger\\Desktop\\IAR Messablauf\\ioCC1110.h"
             },
             "name": "P1_1",
+            "origin": "user_include",
+            "scope": "_anonymous_ioCC1110_h_120_1::_anonymous_ioCC1110_h_120_1"
+          },
+          {
+            "ID": "c:ioCC1110.h@Ua@Sa@FI@P1_7",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "P1_7",
+            "location": {
+              "column": "1",
+              "line": "120",
+              "path": "C:\\Users\\stenger\\Desktop\\IAR Messablauf\\ioCC1110.h"
+            },
+            "name": "P1_7",
             "origin": "user_include",
             "scope": "_anonymous_ioCC1110_h_120_1::_anonymous_ioCC1110_h_120_1"
           }
@@ -1154,6 +1154,20 @@
         },
         "members": [
           {
+            "ID": "c:ioCC1110.h@Ua@Sa@FI@_SOCON2",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "_SOCON2",
+            "location": {
+              "column": "1",
+              "line": "130",
+              "path": "C:\\Users\\stenger\\Desktop\\IAR Messablauf\\ioCC1110.h"
+            },
+            "name": "_SOCON2",
+            "origin": "user_include",
+            "scope": "_anonymous_ioCC1110_h_130_1::_anonymous_ioCC1110_h_130_1"
+          },
+          {
             "ID": "c:ioCC1110.h@Ua@FI@S0CON",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -1206,20 +1220,6 @@
               "path": "C:\\Users\\stenger\\Desktop\\IAR Messablauf\\ioCC1110.h"
             },
             "name": "_SOCON5",
-            "origin": "user_include",
-            "scope": "_anonymous_ioCC1110_h_130_1::_anonymous_ioCC1110_h_130_1"
-          },
-          {
-            "ID": "c:ioCC1110.h@Ua@Sa@FI@_SOCON2",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "_SOCON2",
-            "location": {
-              "column": "1",
-              "line": "130",
-              "path": "C:\\Users\\stenger\\Desktop\\IAR Messablauf\\ioCC1110.h"
-            },
-            "name": "_SOCON2",
             "origin": "user_include",
             "scope": "_anonymous_ioCC1110_h_130_1::_anonymous_ioCC1110_h_130_1"
           },
@@ -1736,20 +1736,6 @@
             "scope": "_anonymous_ioCC1110_h_150_1::_anonymous_ioCC1110_h_150_1"
           },
           {
-            "ID": "c:ioCC1110.h@Ua@Sa@FI@EA",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "EA",
-            "location": {
-              "column": "1",
-              "line": "150",
-              "path": "C:\\Users\\stenger\\Desktop\\IAR Messablauf\\ioCC1110.h"
-            },
-            "name": "EA",
-            "origin": "user_include",
-            "scope": "_anonymous_ioCC1110_h_150_1::_anonymous_ioCC1110_h_150_1"
-          },
-          {
             "ID": "c:ioCC1110.h@Ua@Sa@FI@RFTXRXIE",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -1760,6 +1746,20 @@
               "path": "C:\\Users\\stenger\\Desktop\\IAR Messablauf\\ioCC1110.h"
             },
             "name": "RFTXRXIE",
+            "origin": "user_include",
+            "scope": "_anonymous_ioCC1110_h_150_1::_anonymous_ioCC1110_h_150_1"
+          },
+          {
+            "ID": "c:ioCC1110.h@Ua@Sa@FI@EA",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "EA",
+            "location": {
+              "column": "1",
+              "line": "150",
+              "path": "C:\\Users\\stenger\\Desktop\\IAR Messablauf\\ioCC1110.h"
+            },
+            "name": "EA",
             "origin": "user_include",
             "scope": "_anonymous_ioCC1110_h_150_1::_anonymous_ioCC1110_h_150_1"
           },

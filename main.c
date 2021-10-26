@@ -179,7 +179,7 @@ for(i=0;  i<2; i++)
           } 
                   
           Txdata[0] = length;   //Txdata[0] = length; 
-          Txdata[1] = IDB;   //ID =2
+          Txdata[1] = IDB;  
                   
           if(rssi<=0)
           {
@@ -192,18 +192,19 @@ for(i=0;  i<2; i++)
               Txdata[5]= 0 ; //ändern zu dem in Python 
             }									
                            //Sendet Daten
-          McuWaitS(z); 
-          for (i = 1; i <= 2 ; i++)   
-          {
-              Tx_process(); 
-              transmit(Txdata, length);
-          }	
+          McuWaitS(z);           
+          Tx_process(); 
+          transmit(Txdata, length);          
           SelDet(); 
           }	
+          
+          
          if( Rxdata[2]== 44) //'P')  //'P' Ping oder 44
           {
             SeluC();
-            led2=1; //rote LED leuchtet 
+            
+            led2=1; 
+            //rote LED leuchtet 
             //Sendet Daten
             for (i = 1; i <= length ; i++)  
             { 
@@ -217,7 +218,26 @@ for(i=0;  i<2; i++)
             Tx_process(); 
             transmit(Txdata, length);							
             SelDet(); 
-
+            led2=0;
+            led1=0; 
+            for(i=0;  i<3; i++)
+              {
+                McuWaitMs(500);
+                led2=1; 
+                McuWaitMs(500);
+                led2=0;  
+              }
+            for(i=0;  i<3; i++)
+              {
+                McuWaitMs(500);
+                led1=1; 
+                McuWaitMs(500);
+                led1=0;
+                led2=0;
+              }                                  
+            led2=1;
+            led1=1; 
+            McuWaitS(3);
             led2=0;
             led1=0; 
            }
