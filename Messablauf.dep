@@ -5,203 +5,60 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\Radio.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\timer4.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\ADC.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\ADC.r51</file>
-            <file>$PROJ_DIR$\Debug\Obj\SelectRFInput.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\timer4.r51</file>
-            <file>$PROJ_DIR$\Debug\Obj\Radio.r51</file>
-            <file>$PROJ_DIR$\Debug\Obj\ID1.r51</file>
-            <file>$PROJ_DIR$\Debug\Obj\ID1.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\Powermode.r51</file>
-            <file>$PROJ_DIR$\Debug\Obj\SelectRFInput.r51</file>
-            <file>$PROJ_DIR$\Debug\Obj\Powermode.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\SelectRFInput.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\ADC.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\timer4.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SelectRFInput.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\ID.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\Powermode.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc1110F8.xcl</file>
+            <file>$PROJ_DIR$\timer4.h</file>
             <file>$PROJ_DIR$\Debug\Obj\Radio.__cstat.et</file>
-            <file>$PROJ_DIR$\ID.c</file>
-            <file>$PROJ_DIR$\ID.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ID1.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\Powermode.r51</file>
+            <file>$PROJ_DIR$\Debug\Exe\Messablauf.d51</file>
+            <file>$PROJ_DIR$\Powermode.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\ID.xcl</file>
+            <file>$PROJ_DIR$\Powermode.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Messablauf.pbd</file>
+            <file>$PROJ_DIR$\Definitions.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\Radio.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\ID1.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\SelectRFInput.r51</file>
+            <file>$PROJ_DIR$\Radio.c</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl-pli-nlpd-1e16x01n.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\Radio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\SelectRFInput.c</file>
+            <file>$PROJ_DIR$\SelectRFInput.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer4.xcl</file>
             <file>$PROJ_DIR$\Radio.h</file>
             <file>$PROJ_DIR$\timer4.c</file>
-            <file>$PROJ_DIR$\ID1.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer4.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\Powermode.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\SelectRFInput.xcl</file>
+            <file>$PROJ_DIR$\ADC.c</file>
+            <file>$PROJ_DIR$\ADC.h</file>
+            <file>$PROJ_DIR$\ID.c</file>
+            <file>$PROJ_DIR$\ID.h</file>
             <file>$PROJ_DIR$\ioCC1110.h</file>
             <file>$PROJ_DIR$\ioCCxx10_bitdef.h</file>
-            <file>$PROJ_DIR$\Definitions.h</file>
-            <file>$PROJ_DIR$\ID1.h</file>
-            <file>$PROJ_DIR$\Radio.c</file>
-            <file>$PROJ_DIR$\SelectRFInput.c</file>
-            <file>$PROJ_DIR$\ADC.h</file>
-            <file>$PROJ_DIR$\ADC.c</file>
-            <file>$PROJ_DIR$\Powermode.c</file>
-            <file>$PROJ_DIR$\timer4.h</file>
-            <file>$PROJ_DIR$\Powermode.h</file>
-            <file>$PROJ_DIR$\SelectRFInput.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\ID.r51</file>
-            <file>$PROJ_DIR$\Debug\Obj\ID.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\Messablauf.pbd</file>
-            <file>$PROJ_DIR$\Debug\Exe\Messablauf.d51</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
-            <file>$PROJ_DIR$\Debug\List\Messablauf.map</file>
-            <file>$TOOLKIT_DIR$\lib\dlib\dl-pli-nlpd-1e16x01n.r51</file>
             <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\ID.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
+            <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc1110F8.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\Powermode.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\Messablauf.map</file>
+            <file>$PROJ_DIR$\ID1.c</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\ID.c</name>
+            <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 37</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 16</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 38</file>
+                    <name>XLINK</name>
+                    <file> 43 8</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 21 25 27 26</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\timer4.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 5</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 15</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 1</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 34 25 26</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\ID1.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 7</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 8</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Radio.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 6</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 19</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 0</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 22 25 35</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\SelectRFInput.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 10</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 13</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 4</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 36 25 27 34 26</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\ADC.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 3</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 14</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 2</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 31 25 26 35</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Powermode.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 9</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 17</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 11</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 35 25</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\Messablauf.d51</name>
@@ -214,41 +71,183 @@
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 18 3 37 42 9 6 10 5 44</file>
+                    <file> 41 14 39 40 7 15 19 29 21</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>[ROOT_NODE]</name>
+            <name>$PROJ_DIR$\Powermode.c</name>
             <outputs>
                 <tool>
-                    <name>XLINK</name>
-                    <file> 41 43</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC8051</name>
+                    <name>__cstat</name>
                     <file> 42</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 12</file>
+                    <name>ICC8051</name>
+                    <file> 7</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 39</file>
+                    <file> 30</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC8051</name>
-                    <file> 25 26 35 22 21 27 36 34 31</file>
+                    <file> 11 36</file>
                 </tool>
             </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Radio.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 27 36 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SelectRFInput.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 2</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 25 36 13 4 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\timer4.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 1</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 4 36 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ADC.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 33 36 37 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ID.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 3</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 35 36 13 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 0</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 36 37 11 27 35 13 25 4 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ID1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
         </file>
     </configuration>
     <configuration>
